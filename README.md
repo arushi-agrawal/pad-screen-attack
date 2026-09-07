@@ -3,8 +3,9 @@
 A small prototype that reads face images and outputs, for each one, a score for whether it was photographed off a
 screen (a replay attack) rather than being an original capture. Score is 0 to 1, higher means attack.
 
-The full reasoning, findings, experiments, and limitations are in `docs/PAD_technical_report.docx`. This file
-covers setup, how to run, assumptions, and dependencies.
+The full reasoning, findings, experiments, and limitations are in the technical report:
+[Google Doc](https://docs.google.com/document/d/1VHegu-n7RD2m79tWr012_-2Zo6AhxwYwC3eFpK4w5k4/edit), also in this
+repository as `docs/PAD_technical_report.docx`. This file covers setup, how to run, assumptions, and dependencies.
 
 ## Quick start
 
