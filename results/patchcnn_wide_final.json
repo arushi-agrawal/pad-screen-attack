@@ -1,0 +1,52 @@
+{
+  "final: train all dev, test locked fold 4": {
+    "n_attacks": 4,
+    "n_bona": 199,
+    "auc": 0.9987437185929648,
+    "auc_ci": [
+      0.992462311557789,
+      1.0
+    ],
+    "eer": 0.002512562814070352,
+    "eer_ci": [
+      0.0,
+      0.007537688442211055
+    ],
+    "apcer@bpcer1": 0.0,
+    "apcer@bpcer1_ci": [
+      0.0,
+      0.5
+    ],
+    "apcer@bpcer5": 0.0,
+    "apcer@bpcer5_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  "fold4_at_dev_bpcer_1pct": {
+    "threshold": 0.5922808051109314,
+    "bpcer": 0.005025125628140704,
+    "apcer": 0.25
+  },
+  "fold4_at_dev_bpcer_5pct": {
+    "threshold": 0.4301746785640716,
+    "bpcer": 0.02512562814070352,
+    "apcer": 0.0
+  },
+  "fold4_at_dev_bpcer_10pct": {
+    "threshold": 0.3687866330146789,
+    "bpcer": 0.09045226130653267,
+    "apcer": 0.0
+  },
+  "config": {
+    "aug": "wide",
+    "protocol": "final",
+    "eval": "native",
+    "resolution": "native",
+    "epochs": 3,
+    "patches_per_image": 3,
+    "seed": 0,
+    "name": null,
+    "eval_only": false
+  }
+}

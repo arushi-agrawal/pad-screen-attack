@@ -1,0 +1,10 @@
+# Inference only (infer.py). CPU builds of torch and torchvision:
+#   pip install -r requirements-infer.txt --extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.0.2
+pandas==2.2.3
+pillow==11.3.0
+pillow-heif==1.1.1
+opencv-python-headless==4.11.0.86
+tqdm==4.70.0
+torch==2.8.0
+torchvision==0.23.0

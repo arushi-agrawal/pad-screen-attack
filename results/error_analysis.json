@@ -1,0 +1,146 @@
+{
+  "threshold_bpcer5": 0.43017467856407166,
+  "threshold_bpcer1": 0.5922808051109314,
+  "attacks_missed_bpcer5": [],
+  "attacks_missed_bpcer1": [],
+  "lowest_scoring_attacks": [
+    {
+      "file": "10696.png",
+      "phone": "iPhone",
+      "native": 0.649
+    },
+    {
+      "file": "10992.png",
+      "phone": "Samsung",
+      "native": 0.673
+    },
+    {
+      "file": "10881.png",
+      "phone": "Samsung",
+      "native": 0.675
+    },
+    {
+      "file": "10970.png",
+      "phone": "Samsung",
+      "native": 0.679
+    },
+    {
+      "file": "10960.png",
+      "phone": "Samsung",
+      "native": 0.68
+    }
+  ],
+  "highest_scoring_bona_fide": [
+    {
+      "file": "21640.png",
+      "native": 0.71
+    },
+    {
+      "file": "11999.png",
+      "native": 0.709
+    },
+    {
+      "file": "23231.png",
+      "native": 0.664
+    },
+    {
+      "file": "12705.png",
+      "native": 0.643
+    },
+    {
+      "file": "23480.png",
+      "native": 0.634
+    }
+  ],
+  "score_summary": {
+    "attack_median": 0.8175364136695862,
+    "attack_min": 0.6494801044464111,
+    "bona_median": 0.2152276635169983,
+    "bona_max": 0.7099098563194275,
+    "bona_99pct": 0.5922808051109314
+  },
+  "cue_drop_by_class_phone": {
+    "0|Samsung": {
+      "drop_no_fine_detail": -0.016,
+      "drop_no_colour": -0.056,
+      "drop_density_matched": 0.001,
+      "drop_no_noise": 0.003
+    },
+    "0|iPhone": {
+      "drop_no_fine_detail": -0.039,
+      "drop_no_colour": -0.063,
+      "drop_density_matched": 0.01,
+      "drop_no_noise": -0.029
+    },
+    "0|none": {
+      "drop_no_fine_detail": -0.038,
+      "drop_no_colour": -0.062,
+      "drop_density_matched": 0.01,
+      "drop_no_noise": -0.028
+    },
+    "1|Samsung": {
+      "drop_no_fine_detail": 0.083,
+      "drop_no_colour": -0.036,
+      "drop_density_matched": 0.29,
+      "drop_no_noise": 0.1
+    },
+    "1|iPhone": {
+      "drop_no_fine_detail": 0.089,
+      "drop_no_colour": 0.002,
+      "drop_density_matched": 0.232,
+      "drop_no_noise": 0.069
+    }
+  },
+  "density_misses": [
+    {
+      "file": "10881.png",
+      "phone": "Samsung",
+      "region_px": 1962,
+      "native": 0.675,
+      "no_fine_detail": 0.563,
+      "no_colour": 0.701,
+      "density_matched": 0.404,
+      "no_noise": 0.555
+    },
+    {
+      "file": "10954.png",
+      "phone": "Samsung",
+      "region_px": 1963,
+      "native": 0.72,
+      "no_fine_detail": 0.634,
+      "no_colour": 0.753,
+      "density_matched": 0.383,
+      "no_noise": 0.628
+    },
+    {
+      "file": "10960.png",
+      "phone": "Samsung",
+      "region_px": 2163,
+      "native": 0.68,
+      "no_fine_detail": 0.497,
+      "no_colour": 0.784,
+      "density_matched": 0.197,
+      "no_noise": 0.523
+    },
+    {
+      "file": "10970.png",
+      "phone": "Samsung",
+      "region_px": 2090,
+      "native": 0.679,
+      "no_fine_detail": 0.665,
+      "no_colour": 0.708,
+      "density_matched": 0.302,
+      "no_noise": 0.654
+    },
+    {
+      "file": "11040.png",
+      "phone": "Samsung",
+      "region_px": 2462,
+      "native": 0.733,
+      "no_fine_detail": 0.672,
+      "no_colour": 0.732,
+      "density_matched": 0.397,
+      "no_noise": 0.616
+    }
+  ]
+}

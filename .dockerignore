@@ -1,0 +1,17 @@
+.git
+.venv
+venv
+data
+cache
+derived
+results
+docs
+notebooks
+scripts
+run_experiments.sh
+artefacts/model_dev.pt
+**/__pycache__
+*.ipynb
+*.docx
+*.md
+outputs.csv

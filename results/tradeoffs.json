@@ -1,0 +1,337 @@
+{
+  "operating_points": [
+    {
+      "threshold": 0.6340124011039734,
+      "real_flagged": 4,
+      "of_real": 801,
+      "bpcer": 0.004993757802746567,
+      "attacks_passed": 0,
+      "of_attacks": 19,
+      "apcer": 0.0,
+      "set": "dev out-of-fold",
+      "chosen_by": "BPCER 0.5%",
+      "apcer_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "threshold": 0.6340124011039734,
+      "real_flagged": 1,
+      "of_real": 199,
+      "bpcer": 0.005025125628140704,
+      "attacks_passed": 1,
+      "of_attacks": 4,
+      "apcer": 0.25,
+      "set": "locked fold 4",
+      "chosen_by": "BPCER 0.5%",
+      "apcer_ci": NaN
+    },
+    {
+      "threshold": 0.5922808051109314,
+      "real_flagged": 8,
+      "of_real": 801,
+      "bpcer": 0.009987515605493134,
+      "attacks_passed": 0,
+      "of_attacks": 19,
+      "apcer": 0.0,
+      "set": "dev out-of-fold",
+      "chosen_by": "BPCER 1.0%",
+      "apcer_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "threshold": 0.5922808051109314,
+      "real_flagged": 1,
+      "of_real": 199,
+      "bpcer": 0.005025125628140704,
+      "attacks_passed": 1,
+      "of_attacks": 4,
+      "apcer": 0.25,
+      "set": "locked fold 4",
+      "chosen_by": "BPCER 1.0%",
+      "apcer_ci": NaN
+    },
+    {
+      "threshold": 0.5294743180274963,
+      "real_flagged": 16,
+      "of_real": 801,
+      "bpcer": 0.019975031210986267,
+      "attacks_passed": 0,
+      "of_attacks": 19,
+      "apcer": 0.0,
+      "set": "dev out-of-fold",
+      "chosen_by": "BPCER 2.0%",
+      "apcer_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "threshold": 0.5294743180274963,
+      "real_flagged": 1,
+      "of_real": 199,
+      "bpcer": 0.005025125628140704,
+      "attacks_passed": 0,
+      "of_attacks": 4,
+      "apcer": 0.0,
+      "set": "locked fold 4",
+      "chosen_by": "BPCER 2.0%",
+      "apcer_ci": NaN
+    },
+    {
+      "threshold": 0.4301746785640716,
+      "real_flagged": 40,
+      "of_real": 801,
+      "bpcer": 0.049937578027465665,
+      "attacks_passed": 0,
+      "of_attacks": 19,
+      "apcer": 0.0,
+      "set": "dev out-of-fold",
+      "chosen_by": "BPCER 5.0%",
+      "apcer_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "threshold": 0.4301746785640716,
+      "real_flagged": 5,
+      "of_real": 199,
+      "bpcer": 0.02512562814070352,
+      "attacks_passed": 0,
+      "of_attacks": 4,
+      "apcer": 0.0,
+      "set": "locked fold 4",
+      "chosen_by": "BPCER 5.0%",
+      "apcer_ci": NaN
+    },
+    {
+      "threshold": 0.3687866330146789,
+      "real_flagged": 80,
+      "of_real": 801,
+      "bpcer": 0.09987515605493133,
+      "attacks_passed": 0,
+      "of_attacks": 19,
+      "apcer": 0.0,
+      "set": "dev out-of-fold",
+      "chosen_by": "BPCER 10.0%",
+      "apcer_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "threshold": 0.3687866330146789,
+      "real_flagged": 18,
+      "of_real": 199,
+      "bpcer": 0.09045226130653267,
+      "attacks_passed": 0,
+      "of_attacks": 4,
+      "apcer": 0.0,
+      "set": "locked fold 4",
+      "chosen_by": "BPCER 10.0%",
+      "apcer_ci": NaN
+    },
+    {
+      "threshold": 0.6494791044464111,
+      "real_flagged": 3,
+      "of_real": 801,
+      "bpcer": 0.003745318352059925,
+      "attacks_passed": 0,
+      "of_attacks": 19,
+      "apcer": 0.0,
+      "set": "dev out-of-fold",
+      "chosen_by": "zero attacks passed",
+      "apcer_ci": NaN
+    },
+    {
+      "threshold": 0.6494791044464111,
+      "real_flagged": 1,
+      "of_real": 199,
+      "bpcer": 0.005025125628140704,
+      "attacks_passed": 1,
+      "of_attacks": 4,
+      "apcer": 0.25,
+      "set": "locked fold 4",
+      "chosen_by": "zero attacks passed",
+      "apcer_ci": NaN
+    }
+  ],
+  "latency_by_size": [
+    {
+      "bucket": "1024 px, 1 MP (bona fide)",
+      "decode": 0.022133145999999826,
+      "face_detect": 0.04991091650000001,
+      "crop_and_patches": 0.010760812499999162,
+      "network_36_patches": 0.22175539599999983,
+      "total": 0.30504627099999926,
+      "megapixels": 1.048576,
+      "n": 8
+    },
+    {
+      "bucket": "1700-2700 px, 3-7 MP (attack)",
+      "decode": 0.10278656249999951,
+      "face_detect": 0.06243047899999965,
+      "crop_and_patches": 0.011396020999999479,
+      "network_36_patches": 0.21816806200000105,
+      "total": 0.41013514499999904,
+      "megapixels": 4.0205065,
+      "n": 6
+    },
+    {
+      "bucket": "2800-4300 px, 8-16 MP (attack)",
+      "decode": 0.20622045849999893,
+      "face_detect": 0.07071295800000144,
+      "crop_and_patches": 0.011739270500001453,
+      "network_36_patches": 0.21299797900000073,
+      "total": 0.49979652049999856,
+      "megapixels": 9.9992005,
+      "n": 4
+    },
+    {
+      "bucket": "5712 px, 24 MP (attack)",
+      "decode": 0.48834975000000114,
+      "face_detect": 0.10507974999999803,
+      "crop_and_patches": 0.01303345899999897,
+      "network_36_patches": 0.2213657910000002,
+      "total": 0.8443883749999976,
+      "megapixels": 24.470208,
+      "n": 3
+    }
+  ],
+  "network_seconds_by_threads": {
+    "1": 0.21917659180000015,
+    "2": 0.21538382499999997,
+    "4": 0.2267696749999999
+  },
+  "knobs": [
+    {
+      "config": "4 patches, native, mean",
+      "auc": 0.9876,
+      "auc_lo": 0.979,
+      "apcer5": 0.0,
+      "attacks_passed_at_bpcer5": 0,
+      "apcer1": 0.632,
+      "knob": "patches",
+      "seconds_per_image": 0.104
+    },
+    {
+      "config": "9 patches, native, mean",
+      "auc": 0.999,
+      "auc_lo": 0.997,
+      "apcer5": 0.0,
+      "attacks_passed_at_bpcer5": 0,
+      "apcer1": 0.0,
+      "knob": "patches",
+      "seconds_per_image": 0.12
+    },
+    {
+      "config": "16 patches, native, mean",
+      "auc": 0.9994,
+      "auc_lo": 0.998,
+      "apcer5": 0.0,
+      "attacks_passed_at_bpcer5": 0,
+      "apcer1": 0.0,
+      "knob": "patches",
+      "seconds_per_image": 0.149
+    },
+    {
+      "config": "36 patches, native, mean",
+      "auc": 0.9993,
+      "auc_lo": 0.998,
+      "apcer5": 0.0,
+      "attacks_passed_at_bpcer5": 0,
+      "apcer1": 0.0,
+      "knob": "patches",
+      "seconds_per_image": 0.256
+    },
+    {
+      "config": "36 patches, cap 512 px, mean",
+      "auc": 0.8709,
+      "auc_lo": 0.779,
+      "apcer5": 0.474,
+      "attacks_passed_at_bpcer5": 9,
+      "apcer1": 0.737,
+      "knob": "resolution",
+      "seconds_per_image": 0.254
+    },
+    {
+      "config": "36 patches, cap 865 px, mean",
+      "auc": 0.9446,
+      "auc_lo": 0.884,
+      "apcer5": 0.263,
+      "attacks_passed_at_bpcer5": 5,
+      "apcer1": 0.421,
+      "knob": "resolution",
+      "seconds_per_image": 0.254
+    },
+    {
+      "config": "36 patches, cap 1500 px, mean",
+      "auc": 0.9975,
+      "auc_lo": 0.994,
+      "apcer5": 0.0,
+      "attacks_passed_at_bpcer5": 0,
+      "apcer1": 0.105,
+      "knob": "resolution",
+      "seconds_per_image": 0.248
+    },
+    {
+      "config": "36 patches, native, mean",
+      "auc": 0.9993,
+      "auc_lo": 0.998,
+      "apcer5": 0.0,
+      "attacks_passed_at_bpcer5": 0,
+      "apcer1": 0.0,
+      "knob": "aggregation",
+      "seconds_per_image": 0.256,
+      "real_flagged_at_1pct_thr": 8
+    },
+    {
+      "config": "36 patches, native, median",
+      "auc": 0.9991,
+      "auc_lo": 0.998,
+      "apcer5": 0.0,
+      "attacks_passed_at_bpcer5": 0,
+      "apcer1": 0.0,
+      "knob": "aggregation",
+      "seconds_per_image": 0.256,
+      "real_flagged_at_1pct_thr": 8
+    },
+    {
+      "config": "36 patches, native, top-9 mean",
+      "auc": 0.994,
+      "auc_lo": 0.988,
+      "apcer5": 0.0,
+      "attacks_passed_at_bpcer5": 0,
+      "apcer1": 0.263,
+      "knob": "aggregation",
+      "seconds_per_image": 0.256,
+      "real_flagged_at_1pct_thr": 8
+    },
+    {
+      "config": "36 patches, native, top-4 mean",
+      "auc": 0.9838,
+      "auc_lo": 0.97,
+      "apcer5": 0.053,
+      "attacks_passed_at_bpcer5": 1,
+      "apcer1": 0.421,
+      "knob": "aggregation",
+      "seconds_per_image": 0.256,
+      "real_flagged_at_1pct_thr": 8
+    },
+    {
+      "config": "36 patches, native, max",
+      "auc": 0.953,
+      "auc_lo": 0.919,
+      "apcer5": 0.421,
+      "attacks_passed_at_bpcer5": 8,
+      "apcer1": 0.526,
+      "knob": "aggregation",
+      "seconds_per_image": 0.256,
+      "real_flagged_at_1pct_thr": 8
+    }
+  ]
+}

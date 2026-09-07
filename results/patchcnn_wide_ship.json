@@ -1,0 +1,13 @@
+{
+  "config": {
+    "aug": "wide",
+    "protocol": "ship",
+    "eval": "native",
+    "resolution": "native",
+    "epochs": 3,
+    "patches_per_image": 3,
+    "seed": 0,
+    "name": null,
+    "eval_only": false
+  }
+}

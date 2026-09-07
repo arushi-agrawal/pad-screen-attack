@@ -1,0 +1,63 @@
+{
+  "seed": 20260905,
+  "n_images": 1023,
+  "n_attacks": 23,
+  "primary": {
+    "protocol": "stratified 5-fold, grouped by pair, attacks stratified by phone; every attack validated once",
+    "attacks_per_fold": {
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 4,
+      "4": 4
+    },
+    "attacks_per_fold_by_phone": {
+      "0 | Samsung": 2,
+      "0 | iPhone": 3,
+      "1 | Samsung": 2,
+      "1 | iPhone": 3,
+      "2 | Samsung": 2,
+      "2 | iPhone": 3,
+      "3 | Samsung": 2,
+      "3 | iPhone": 2,
+      "4 | Samsung": 1,
+      "4 | iPhone": 3
+    },
+    "bona_fide_per_fold": {
+      "0": 201,
+      "1": 201,
+      "2": 200,
+      "3": 199,
+      "4": 199
+    }
+  },
+  "leave_one_phone_out": {
+    "protocol": "hold out all attacks (and twins) from one phone plus a fixed 20 % of unpaired bona fide; train on the rest; run both directions",
+    "groups": {
+      "Samsung | 0": 9,
+      "Samsung | 1": 9,
+      "bona_train | 0": 782,
+      "bona_val | 0": 195,
+      "iPhone | 0": 14,
+      "iPhone | 1": 14
+    }
+  },
+  "random_split": {
+    "protocol": "80/20 stratified by class only, pairs and phones ignored; for comparison in the report only",
+    "counts": {
+      "train | 0": 800,
+      "train | 1": 18,
+      "val | 0": 200,
+      "val | 1": 5
+    }
+  },
+  "locked_fold": 4,
+  "rules": [
+    "fold 4 is locked: not used for training, validation, selection, or inspection during development; run once on the frozen final model",
+    "development uses folds 0..3 as 4-fold cross-validation",
+    "pairs always share a fold and a lopo group",
+    "any model selection, threshold, or hyperparameter choice happens inside the training folds",
+    "augmentation and resampling (SMOTE, oversampling, synthetic attacks) happen after the split, inside the training fold only; validation folds are never resampled",
+    "the primary 5-fold number is never used to pick anything"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "native_auc": 0.9987437185929648,
+  "shrunk_auc": 0.8756281407035176,
+  "thresholds": {
+    "bpcer_1pct": 0.5922808051109314,
+    "bpcer_5pct": 0.4301746785640716,
+    "bpcer_10pct": 0.3687866330146789
+  },
+  "shrunk_at_5pct": {
+    "real_flagged": 4,
+    "attacks_passed": 3
+  }
+}

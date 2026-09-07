@@ -1,0 +1,61 @@
+{
+  "train iPhone, test Samsung": {
+    "n_attacks": 8,
+    "n_bona": 168,
+    "auc": 0.7537202380952381,
+    "auc_ci": [
+      0.6234933035714286,
+      0.8698102678571428
+    ],
+    "eer": 0.24404761904761904,
+    "eer_ci": [
+      0.14575892857142855,
+      0.4851190476190476
+    ],
+    "apcer@bpcer1": 1.0,
+    "apcer@bpcer1_ci": [
+      1.0,
+      1.0
+    ],
+    "apcer@bpcer5": 0.875,
+    "apcer@bpcer5_ci": [
+      0.5,
+      1.0
+    ]
+  },
+  "train Samsung, test iPhone": {
+    "n_attacks": 11,
+    "n_bona": 171,
+    "auc": 0.9144072301967039,
+    "auc_ci": [
+      0.8335858585858585,
+      0.9792663476874003
+    ],
+    "eer": 0.14938862307283357,
+    "eer_ci": [
+      0.04378654970760234,
+      0.3514088250930356
+    ],
+    "apcer@bpcer1": 0.5454545454545454,
+    "apcer@bpcer1_ci": [
+      0.2727272727272727,
+      0.8181818181818182
+    ],
+    "apcer@bpcer5": 0.5454545454545454,
+    "apcer@bpcer5_ci": [
+      0.09090909090909091,
+      0.8181818181818182
+    ]
+  },
+  "config": {
+    "aug": "wide",
+    "protocol": "lopo",
+    "eval": "density",
+    "resolution": "native",
+    "epochs": 3,
+    "patches_per_image": 3,
+    "seed": 0,
+    "name": null,
+    "eval_only": true
+  }
+}

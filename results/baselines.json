@@ -1,0 +1,141 @@
+{
+  "classical_devcv": {
+    "n_attacks": 19,
+    "n_bona": 801,
+    "auc": 0.7949931007293515,
+    "auc_ci": [
+      0.6976115382088178,
+      0.8749605755962941
+    ],
+    "eer": 0.25579867271174195,
+    "eer_ci": [
+      0.1613287666732374,
+      0.40467425586438
+    ],
+    "apcer@bpcer1": 0.8947368421052632,
+    "apcer@bpcer1_ci": [
+      0.7368421052631579,
+      1.0
+    ],
+    "apcer@bpcer5": 0.7894736842105263,
+    "apcer@bpcer5_ci": [
+      0.6302631578947369,
+      0.9473684210526315
+    ],
+    "folds": [
+      {
+        "fold": 0,
+        "n_train_att": 14,
+        "n_val_att": 5,
+        "C": 0.01
+      },
+      {
+        "fold": 1,
+        "n_train_att": 14,
+        "n_val_att": 5,
+        "C": 0.01
+      },
+      {
+        "fold": 2,
+        "n_train_att": 14,
+        "n_val_att": 5,
+        "C": 0.1
+      },
+      {
+        "fold": 3,
+        "n_train_att": 15,
+        "n_val_att": 4,
+        "C": 0.01
+      }
+    ],
+    "missed_at_bpcer5": [
+      "00998 (iPhone)",
+      "08794 (iPhone)",
+      "10684 (iPhone)",
+      "10696 (iPhone)",
+      "10728 (iPhone)",
+      "10881 (Samsung)",
+      "10889 (Samsung)",
+      "10960 (Samsung)",
+      "10970 (Samsung)",
+      "10972 (Samsung)",
+      "10992 (Samsung)",
+      "11040 (Samsung)",
+      "11099 (iPhone)",
+      "11117 (iPhone)",
+      "11130 (iPhone)"
+    ]
+  },
+  "classical_lopo_test_Samsung": {
+    "n_attacks": 8,
+    "n_bona": 168,
+    "auc": 0.5930059523809524,
+    "auc_ci": [
+      0.4412016369047619,
+      0.7529761904761905
+    ],
+    "eer": 0.3898809523809524,
+    "eer_ci": [
+      0.26785714285714285,
+      0.625
+    ],
+    "apcer@bpcer1": 1.0,
+    "apcer@bpcer1_ci": [
+      0.75,
+      1.0
+    ],
+    "apcer@bpcer5": 0.875,
+    "apcer@bpcer5_ci": [
+      0.625,
+      1.0
+    ],
+    "folds": [
+      {
+        "fold": 0,
+        "n_train_att": 11,
+        "n_val_att": 8,
+        "C": 10.0
+      }
+    ]
+  },
+  "classical_lopo_test_iPhone": {
+    "n_attacks": 11,
+    "n_bona": 171,
+    "auc": 0.5241892610313662,
+    "auc_ci": [
+      0.329585326953748,
+      0.7145268474215842
+    ],
+    "eer": 0.5329611908559277,
+    "eer_ci": [
+      0.27086656034024453,
+      0.7145135566188198
+    ],
+    "apcer@bpcer1": 1.0,
+    "apcer@bpcer1_ci": [
+      1.0,
+      1.0
+    ],
+    "apcer@bpcer5": 1.0,
+    "apcer@bpcer5_ci": [
+      1.0,
+      1.0
+    ],
+    "folds": [
+      {
+        "fold": 0,
+        "n_train_att": 8,
+        "n_val_att": 11,
+        "C": 0.1
+      }
+    ]
+  },
+  "classical_weights_devfit": {
+    "peakiness_native": 0.5744047663396539,
+    "hf_energy": 0.4412282064443839,
+    "specular_ratio": -0.3576806555537902,
+    "cr_std": 0.21838552372671788,
+    "lap_var": 0.08176657308871826,
+    "lbp_dist_gray": 0.018792292412815863
+  }
+}

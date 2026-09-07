@@ -1,0 +1,19 @@
+# dataset (provided separately: put Bonafide/ and Screens/ under data/) and regenerable caches
+data
+data/
+cache
+cache/
+derived/*.npy
+results/models_archive/
+results/logs/
+results/embeddings_mnv3.npz
+results/to_patch_scores.npy
+# environments and editor junk
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+~$*
+outputs.csv

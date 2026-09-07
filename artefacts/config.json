@@ -1,0 +1,30 @@
+{
+  "model": "mobilenet_v3_small",
+  "frozen_blocks": 7,
+  "patch": 128,
+  "patches_per_image": 36,
+  "aggregation": "mean",
+  "aug": "wide",
+  "epochs": 3,
+  "patches_per_image_train": 3,
+  "seed": 0,
+  "trained_on": "all 1023 images (23 attacks); validated numbers belong to model_dev.pt",
+  "score_direction": "higher = attack",
+  "thresholds_from": "out-of-fold development scores (results/ea_scores.csv)",
+  "thresholds": {
+    "bpcer_1pct": 0.5922808051109314,
+    "bpcer_5pct": 0.4301746785640716,
+    "bpcer_10pct": 0.3687866330146789
+  },
+  "imagenet_mean": [
+    0.48500001430511475,
+    0.4560000002384186,
+    0.4059999883174896
+  ],
+  "imagenet_std": [
+    0.2290000021457672,
+    0.2240000069141388,
+    0.22499999403953552
+  ],
+  "validated_model": "model_dev.pt"
+}
