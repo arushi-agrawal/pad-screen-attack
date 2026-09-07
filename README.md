@@ -94,7 +94,7 @@ scripts/                  one file per step: make_splits, baselines, train, anom
 notebooks/                01_data_analysis (what the data taught us), 02_experiments (every model, galleries, misses)
 derived/                  splits, face boxes, classical features (regenerable)
 results/                  score files, result JSONs, figures, the four final-recipe fold models
-docs/                     technical report, working record, the brief, interview Q&A
+docs/                     technical report, working record, interview Q&A
 run_experiments.sh        reproduces everything from splits to the shipped model, by stage
 ```
 
